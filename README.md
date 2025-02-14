@@ -1,7 +1,4 @@
 
-![alt text][logo]
-
-[logo]: https://res.cloudinary.com/dfoxsvhei/image/upload/v1730915804/logo_herny_e2t0mh.ico "Logo Title Text 2"
 
 ## **IMPORTANTE: PARA QUE LA APLICACION PUEDA MOSTRAR UNA BUENA EXPERIENCIA DEL USUARIO, DEBES HABILITAR EN EL NAVEGADOR QUE PUEDA REPRODUCIR SONIDO EN EL SERVIDOR http://localhost:5173/, en Google Chrome la ruta es chrome://settings/content/sound**
 
