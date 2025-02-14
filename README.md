@@ -11,12 +11,6 @@ Te presentamos una app que te facilita el proceso de una reserva en un restauran
 ![Descripción de la imagen](front/vite-project/src/assets/capturas.png)
 
 
-## **_PROYECTO MÓDULO 3 – FULL STACK DEVELOPER_**
-
-### **Autor**: GUSTAVO FEDERICO GALDEANO
-
-### **Cohorte**: WEBFT56
-
 ### **Descripción**:
 Este proyecto tiene como fin generar reservas para los clientes de un restaurante. El usuario podrá seleccionar la fecha y hora de su preferencia y realizar la reserva. Además, podrá cancelar la reserva si lo desea.
 
