@@ -1,0 +1,64 @@
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #726c5f;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px; 
+}
+
+.logoSection img {
+    height: 70px;
+    object-fit: contain;
+}
+
+.linksSection {
+    display: flex;
+    gap: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navLink {
+    font-family: "Arial", sans-serif; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.navLink:hover {
+    color: #ff6600;
+}
+
+.avatarSection img {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #1abc9c;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.avatarClickable {
+    cursor: pointer;
+}
+
+

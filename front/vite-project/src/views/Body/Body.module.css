@@ -1,0 +1,21 @@
+.container {
+    background-image: url('/resto-background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  

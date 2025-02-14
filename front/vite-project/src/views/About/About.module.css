@@ -1,0 +1,95 @@
+.container {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  max-width: 40%; /* Cambiado de 800px a porcentaje */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem; /* Cambiado de 20px a rem */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+
+.title {
+  font-size: 2rem; /* Cambiado de 2.5rem */
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.5rem; /* Cambiado de 1.8rem */
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+.sectionTitle {
+  font-size: 1.2rem; /* Cambiado de 1.5rem */
+  margin-top: 1rem;
+  color: #333;
+}
+
+.text {
+  font-size: 0.9rem; /* Cambiado de 1rem */
+  line-height: 1.5; /* Ajuste de espacio entre líneas */
+  color: #444;
+}
+
+
+.subtitle {
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-top: 10px;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+.techList {
+  margin-left: 20px;
+}
+
+.techList h4 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #444;
+}
+
+.techList ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.techList li {
+  font-size: 1rem;
+  color: #444;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #777;
+}

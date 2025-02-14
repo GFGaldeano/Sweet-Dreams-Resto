@@ -1,0 +1,121 @@
+body {
+  margin-top: 8rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fefefe;
+  }
+  
+  .title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+  }
+  
+  .field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .inputRegister {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    font-size: 1rem; 
+    transition: all 0.3s ease-in-out; 
+  }
+  
+  .inputRegister:focus {
+    outline: none; 
+    border-color: #007bff; 
+    background-color: #eaf4ff;
+    color: #000; 
+  }
+
+  .loginMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .loginText {
+    color: #007BFF;
+    font-weight: bold;
+    cursor: default; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .loginText:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .form {
+      padding: 1rem;
+    }
+  
+    .inputRegister {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

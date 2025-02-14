@@ -1,0 +1,74 @@
+
+
+   .turnoCard {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 60%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .turnoCard:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .turnoText {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0%;
+  }
+  
+  .turnoStatus {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .turnoStatus.pending {
+    color: green;
+  }
+  
+  .turnoStatus.cancelled {
+    color: red;
+  }
+  
+  
+  .cancelButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .cancelButton:disabled {
+    background-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .cancelButton:not(:disabled):hover {
+    background-color: #ff4444;
+    color: #fff;
+    border: 1px solid #ff4444;
+  }
+  
+.h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    align-items: center;
+    color: #333;
+    margin-bottom: 1em;
+}
